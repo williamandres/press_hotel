@@ -1,0 +1,107 @@
+:root{
+    --black-color: #000000;
+    --grey-light-color: #f1f2f2;
+    --grey-middle-color: #979fa4;
+    --grey-dark-color: #282930;  
+    --red-color: #e5494e; 
+    --monserrat-regular: monserrat-regular;
+    --monserrat-semibold: monserrat-semibold;
+    --monserrat-bold: monserrat-bold;
+    --monserrat-medium: monserrat-medium;
+    --monserrat-regular: monserrat-regular;
+    --playfair-regular: playfair-regular;
+}
+
+
+/* ****** Resets ******* */ 
+html
+{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+}
+
+h1
+{
+    margin: 0;
+}
+
+h2
+{
+    margin: 0;
+}
+
+h3
+{
+    margin: 0;
+}
+
+h4
+{
+    margin: 0;
+}
+
+p
+{
+    margin: 0;
+}
+
+ul
+{
+    padding: 0;
+    margin: 0;
+}
+
+a
+{
+    cursor: pointer;
+}
+/* ***** */
+
+
+/* ****** fonts ******* */
+@font-face {
+    font-family:  monserrat-regular;
+    src: url('fonts/monserrat/Montserrat-Regular.ttf'); 
+}
+
+@font-face {
+    font-family:  monserrat-semibold;
+    src: url('fonts/monserrat/Montserrat-SemiBold.ttf'); 
+}
+
+@font-face {
+    font-family:  monserrat-bold;
+    src: url('fonts/monserrat/Montserrat-bold.ttf'); 
+}
+
+@font-face {
+    font-family:  monserrat-medium;
+    src: url('fonts/monserrat/Montserrat-Medium.ttf'); 
+}
+
+@font-face {
+    font-family:  monserrat-regular;
+    src: url('fonts/monserrat/Montserrat-Regular.ttf'); 
+}
+
+@font-face {
+    font-family:  playfair-regular;
+    src: url('fonts/playfair/PlayfairDisplay-Regular.ttf'); 
+}
+
+/* ***** */
